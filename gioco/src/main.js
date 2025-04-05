@@ -8,7 +8,6 @@ const PLAYER_SPEED = 1000;
 const FALL_SPEED = PLAYER_SPEED / 2;
 
 let score = 0;
-let time = 60.0; // Tempo in secondi, float
 
 K.loadRoot("./sprites/");
 K.loadSprite("grass", "background.jpg");
@@ -102,15 +101,4 @@ K.onUpdate(() => {
             }
         }
     });
-});
-
-
-// Callback per aggiornare il timer
-K.onUpdate((dt) => {
-    time -= dt;
-    if (time <= 0) {
-        time = 0;
-        alert("Tempo scaduto! Il tuo punteggio è: " + score);
-        window.location.reload();
-    }
 });
