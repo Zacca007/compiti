@@ -11,12 +11,12 @@ let score = 0;
 
 K.loadRoot("./sprites/");
 K.loadSprite("grass", "background.jpg");
-K.loadSprite("kat", "kat.png");
+K.loadSprite("kat", "pxArt.png");
 K.loadSprite("bean", "bean.png");
-K.loadSprite("butterfly", "btfly.png");
-K.loadSprite("apple", "apple.png");
-K.loadSprite("coin", "coin.png");
-K.loadSprite("egg", "egg.png");
+K.loadSprite("butterfly", "pxArt(1).png");
+K.loadSprite("apple", "pxArt(2).png");
+K.loadSprite("coin", "pxArt(3).png");
+K.loadSprite("egg", "pxArt(4).png");
 K.loadSprite("lightening", "lightening.png");
 
 K.add([K.pos(0, 0),
